@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 
-import Main from './Main.tsx';
+import Main from './components/Main/Main.tsx';
 
 function App() {
   return (
