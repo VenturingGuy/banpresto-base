@@ -36,10 +36,14 @@ export const MainYearList = styled.div`
   flex-flow: row wrap;
 `;
 
-export const MainYearListItem = styled.a`
+export const MainYearListItem = styled.p`
   padding: 0 4px;
 
   &:hover {
     cursor: pointer;
+  }
+
+  > a {
+    color: inherit;
   }
 `;
