@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Main/>}/>
+        <Route exact path="/banpresto-base" element={<Main/>}/>
         <Route path="/banpresto-games-by-year/:year" element={<YearPage/>}/>
       </Routes>
     </BrowserRouter>
