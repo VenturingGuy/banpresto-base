@@ -1,10 +1,9 @@
 import React from 'react';
-import Home from 'src/assets/Home.jpg';
 
 const Main: () => JSX.Element = () => {
   return(
     <div className="main-page">
-      <Home/>
+      <img src="/src/assets/Home.jpg" alt="home"/>
       <h1>Oye como va</h1>
     </div>
   );
