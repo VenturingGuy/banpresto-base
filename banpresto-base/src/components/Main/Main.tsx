@@ -1,12 +1,13 @@
 import React from 'react';
-import './style.css'
+import home from '../../assets/home.jpg';
+import { MainContainer, MainImage } from './Main.styled.js';
 
 const Main: () => JSX.Element = () => {
   return(
-    <div className="main-page">
-      <img src="/src/assets/home.jpg" alt="home"/>
-      <h1>Oye como va</h1>
-    </div>
+    <MainContainer>
+      <MainImage alt="home" src={home}/>
+      <h1>Antique Game Research Society</h1>
+    </MainContainer>
   );
 }
 
