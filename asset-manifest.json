@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/banpresto-base/static/css/main.f855e6bc.css",
+    "main.css": "/banpresto-base/static/css/main.277536a6.css",
     "main.js": "/banpresto-base/static/js/main.5807616d.js",
     "static/js/787.6fb54321.chunk.js": "/banpresto-base/static/js/787.6fb54321.chunk.js",
     "index.html": "/banpresto-base/index.html",
-    "main.f855e6bc.css.map": "/banpresto-base/static/css/main.f855e6bc.css.map",
+    "main.277536a6.css.map": "/banpresto-base/static/css/main.277536a6.css.map",
     "main.5807616d.js.map": "/banpresto-base/static/js/main.5807616d.js.map",
     "787.6fb54321.chunk.js.map": "/banpresto-base/static/js/787.6fb54321.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
+    "static/css/main.277536a6.css",
     "static/js/main.5807616d.js"
   ]
 }
