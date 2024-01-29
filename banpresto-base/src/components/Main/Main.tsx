@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from 'src/components/Main/assets/Home.jpg';
+import Home from 'src/assets/Home.jpg';
 
 const Main: () => JSX.Element = () => {
   return(
