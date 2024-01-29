@@ -28,12 +28,18 @@ export const MainYearCTA = styled.div`
 
 `;
 
-export const MainYearList = styled.ul`
+export const MainYearList = styled.div`
   display: flex;
+  justify-content: center;
   max-width: 100%;
-  height: 100px;
+  height: 16px;
+  flex-flow: row wrap;
 `;
 
 export const MainYearListItem = styled.a`
-padding: 4px;
+  padding: 0 4px;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
