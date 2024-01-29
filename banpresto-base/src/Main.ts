@@ -3,3 +3,5 @@ const Main : JSX.Element = () => {
     <h1>oye como va</h1>
   );
 };
+
+export default Main;
