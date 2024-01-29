@@ -8,19 +8,16 @@ const BANPRESTO_FIRST_GAME_YEAR = 1990;
 const renderYears = () => {
   const years = [];
   for (let i = BANPRESTO_FIRST_GAME_YEAR; i <= CURRENT_YEAR; i++){
-    console.log(i);
     years.push(i);
   }
   return (
     <MainYearList>
       {years.map(year => (
-        <MainYearListItem>{year}</MainYearListItem>
+        <MainYearListItem>[{year}]</MainYearListItem>
       ))}
     </MainYearList>
   )
-}
-
-console.log(CURRENT_YEAR);
+};
 
 const Main: () => JSX.Element = () => {
   return(
