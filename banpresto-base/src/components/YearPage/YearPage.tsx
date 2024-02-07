@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router";
-import gamesByYear from "../../../consts/gamesByYear.json";
+import gamesByYear from "../../consts/gamesByYear.json";
 import { YearPageContainer, YearPageGame } from "./YearPage.styled";
 
 const YearPage: () => JSX.Element = () => {
